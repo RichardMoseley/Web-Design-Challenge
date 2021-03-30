@@ -1,0 +1,98 @@
+#vizLogo {
+    color: purple;
+}
+
+.navbar {
+    border-radius: .5em;
+}
+
+#vizMenu {
+    background-color: rgb(179, 179, 179);
+    margin: 13px 0;
+    border-radius: 0 .5em .5em 0;
+}
+
+#vizMenu img {
+    width: 100%;
+    height: auto;
+}
+
+#vizMenu img:hover {
+    width: 105%;
+}
+
+.navbar-brand {
+    padding-left: 12px;
+}
+
+#summTable {
+    background-color: #f2f2f2;
+    color: black;
+    border-radius: .5em 0 0 .5em;
+    margin: 13px 0;
+}
+
+#indexHead {
+    color: purple;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 25px;
+}
+
+#indexP {
+    padding: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+#indexNav {
+    margin: 50px;
+    text-align: center;
+    font-size: 12px;
+}
+
+#compNav {
+    margin: 15px;
+    font-size: 12px;
+    text-align: center;
+}
+
+#compTable {
+    background-color: #f2f2f2;
+    color: black;
+    border-radius: .5em 0 0 .5em;
+    margin: 13px 0;
+}
+
+.comphead {
+    color:purple;
+    text-align: center;
+}
+
+.singlePlot {
+    width: 95%;
+    height: auto;
+}
+
+.singleAnalysis {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 35px;
+    margin: 25px;
+}
+
+@media (max-width: 767px) {
+    #summTable {
+        border-radius: 0;
+    }
+
+    #compTable {
+        border-radius: 0;
+    }
+
+    #vizMenu {
+    background-color: rgb(117, 117, 117);
+    margin: 0;
+    border-radius: 0;
+}
+}
