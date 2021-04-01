@@ -54,6 +54,10 @@
     margin: 13px 0;
 }
 
+.dataTable {
+    background-color: #f2f2f2;
+}
+
 #indexHead {
     color: purple;
     font-weight: 400;
@@ -106,8 +110,9 @@
 @media (max-width: 767px) {
 
     #datasummTable {
-        display: flex;
-        width: 850px;
+        background-color: #f2f2f2;
+        display: block;
+        width: 100%;
         border-radius: 0;
     }
 
